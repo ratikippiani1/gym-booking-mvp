@@ -1,16 +1,62 @@
-# React + Vite
+# Gym Booking System — React + Supabase MVP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live demo: https://YOUR-VERCEL-LINK.vercel.app  
+GitHub repo: https://github.com/YOUR-USERNAME/YOUR-REPO
 
-Currently, two official plugins are available:
+A production-style gym booking system built with React and Supabase.  
+Includes service selection, automated time slots, admin dashboard and booking protection logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Client Side
+- Service selection (Gym, BJJ, MMA, Boxing)
+- Date picker with future-only booking validation
+- Automatic time slot generation
+- Already booked slots disabled
+- Double booking prevention
+- Responsive UI (mobile + desktop)
 
-## Expanding the ESLint configuration
+### Admin Panel
+- Password protected admin access
+- Persistent login (localStorage)
+- View all bookings
+- Delete bookings
+- Manual refresh with loading state
+- Auto reload on page refresh
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### System Logic
+- Business hours based scheduling
+- Slot interval control (15 min)
+- Input validation
+- Backend row security
+- Production deployment ready
+
+---
+
+## 🧠 Tech Stack
+
+Frontend:
+- React
+- Tailwind CSS
+- Vite
+
+Backend:
+- Supabase (PostgreSQL)
+- Row Level Security (RLS)
+
+Deployment:
+- Vercel
+- GitHub
+
+---
+## Screenshots
+
+![Home Page](screenshots/admin.png)
+![Dashboard](screenshots/booked.png)
+![booking](screenshots/booking.png)
+
+
+
+
