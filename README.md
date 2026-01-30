@@ -1,7 +1,7 @@
 # Gym Booking System — React + Supabase MVP
 
-Live demo: https://YOUR-VERCEL-LINK.vercel.app  
-GitHub repo: https://github.com/YOUR-USERNAME/YOUR-REPO
+🚀 Live Demo: https://gym-booking-mvp.vercel.app  
+💻 GitHub Repository: https://github.com/ratikippiani1/gym-booking-mvp 
 
 A production-style gym booking system built with React and Supabase.  
 Includes service selection, automated time slots, admin dashboard and booking protection logic.
