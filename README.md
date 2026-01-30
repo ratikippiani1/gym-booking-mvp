@@ -53,9 +53,9 @@ Deployment:
 ---
 ## Screenshots
 
-![Home Page](screenshots/admin.png)
-![Dashboard](screenshots/booked.png)
-![booking](screenshots/booking.png)
+!![Admin Panel](screenshots/admin.png)
+![Booked Slots View](screenshots/booked.png)
+![Booking Interface](screenshots/booking.png)
 
 
 
